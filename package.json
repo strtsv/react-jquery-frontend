@@ -1,5 +1,4 @@
 {
-  "name": "gmadical",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,8 +8,6 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "html-to-react-components": "^1.6.6",
-    "i": "^0.3.6",
-    "install": "^0.13.0",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.5.0",
     "npm": "^6.14.4",
@@ -40,8 +37,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "h2r": "node_modules/.bin/html2react src/about.html -o src/components/About11"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
